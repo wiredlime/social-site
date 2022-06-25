@@ -1,46 +1,48 @@
-# Getting Started with Create React App and Redux
+# User Story
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+### Authentication
 
-## Available Scripts
+- [ ] User have to log in with email and password
+- [ ] New user can register for a new account with name, email and password.
+- [ ] User stay logged in with refreshing page.
 
-In the project directory, you can run:
+### User Profile
 
-### `npm start`
+- [ ] On the left side of the homepage, USer can see his/her profile info including scorecards of number of friends and posts.
+- [ ] On the profile cover, user can switch tabs between PRofile, Friends, REquests, Add Friend.
+- [ ] User can update profile info.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Posts and Comments
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [ ] User can create a new post with a content and an image. This image is optional. USer can see the new post after successfully created.
+- [ ] After logged in , user can see a homeage iwth his/her post and his/her friend's posts. New post should be on the top. User can click <LoadMore/> to see more post. If there is no more post, <LoadMore/> button should be disabled.
+- [ ] User can comment on a post. User can see the comment after successfully created.
+- [ ] User can see comments of each post. New comments should be at the bottom. User can see a pagination if the total comments is more than 3 comments .
 
-### `npm test`
+### Reaction
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [ ] User can like/dislike a post or a comment
 
-### `npm run build`
+### Add friends
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [ ] User can see a table of all users in the system
+- [ ] User can find user by name
+- [ ] USer can see the friendship status with all users and take actions:
+  - [ ] User can send request to other users
+  - [ ] User can cancel a sent request
+  - [ ] User can accept/decline a friend request.
+  - [ ] User can unfriend a target user.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Friend Lists
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [ ] User can see a list of friends. User can find friends by name.
+- [ ] User can unfriend.
 
-### `npm run eject`
+### Friend Request Lists
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [ ] User can see a list of friend requests. USer can find requests by name.
+- [ ] User can accept/decline friend requests.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Target User Profile
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [ ] User can see the profile of other users.
